@@ -1,0 +1,371 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: mixed.js
+        output: -
+
+     scenarios: (100.00%) 3 scenarios, 800 max VUs, 1m30s max duration (incl. graceful stop):
+              * cart: 500.00 iterations/s for 1m0s (maxVUs: 50-400, exec: cart, gracefulStop: 30s)
+              * pay: 100.00 iterations/s for 1m0s (maxVUs: 20-200, exec: pay, gracefulStop: 30s)
+              * report: 50.00 iterations/s for 1m0s (maxVUs: 50-200, exec: report, gracefulStop: 30s)
+
+
+running (0m01.0s), 016/120 VUs, 630 complete and 0 interrupted iterations
+cart     [   2% ] 000/050 VUs  0m01.0s/1m0s  500.00 iters/s
+pay      [   2% ] 000/020 VUs  0m01.0s/1m0s  100.00 iters/s
+report   [   2% ] 016/050 VUs  0m01.0s/1m0s  50.00 iters/s
+
+running (0m02.0s), 017/120 VUs, 1279 complete and 0 interrupted iterations
+cart     [   3% ] 000/050 VUs  0m02.0s/1m0s  500.00 iters/s
+pay      [   3% ] 000/020 VUs  0m02.0s/1m0s  100.00 iters/s
+report   [   3% ] 017/050 VUs  0m02.0s/1m0s  50.00 iters/s
+
+running (0m03.0s), 019/120 VUs, 1928 complete and 0 interrupted iterations
+cart     [   5% ] 004/050 VUs  0m03.0s/1m0s  500.00 iters/s
+pay      [   5% ] 001/020 VUs  0m03.0s/1m0s  100.00 iters/s
+report   [   5% ] 014/050 VUs  0m03.0s/1m0s  50.00 iters/s
+
+running (0m04.0s), 015/120 VUs, 2581 complete and 0 interrupted iterations
+cart     [   7% ] 000/050 VUs  0m04.0s/1m0s  500.00 iters/s
+pay      [   7% ] 000/020 VUs  0m04.0s/1m0s  100.00 iters/s
+report   [   7% ] 015/050 VUs  0m04.0s/1m0s  50.00 iters/s
+
+running (0m05.0s), 013/120 VUs, 3233 complete and 0 interrupted iterations
+cart     [   8% ] 000/050 VUs  0m05.0s/1m0s  500.00 iters/s
+pay      [   8% ] 000/020 VUs  0m05.0s/1m0s  100.00 iters/s
+report   [   8% ] 013/050 VUs  0m05.0s/1m0s  50.00 iters/s
+
+running (0m06.0s), 013/120 VUs, 3883 complete and 0 interrupted iterations
+cart     [  10% ] 000/050 VUs  0m06.0s/1m0s  500.00 iters/s
+pay      [  10% ] 000/020 VUs  0m06.0s/1m0s  100.00 iters/s
+report   [  10% ] 013/050 VUs  0m06.0s/1m0s  50.00 iters/s
+
+running (0m07.0s), 016/120 VUs, 4530 complete and 0 interrupted iterations
+cart     [  12% ] 000/050 VUs  0m07.0s/1m0s  500.00 iters/s
+pay      [  12% ] 000/020 VUs  0m07.0s/1m0s  100.00 iters/s
+report   [  12% ] 016/050 VUs  0m07.0s/1m0s  50.00 iters/s
+
+running (0m08.0s), 016/120 VUs, 5180 complete and 0 interrupted iterations
+cart     [  13% ] 000/050 VUs  0m08.0s/1m0s  500.00 iters/s
+pay      [  13% ] 000/020 VUs  0m08.0s/1m0s  100.00 iters/s
+report   [  13% ] 016/050 VUs  0m08.0s/1m0s  50.00 iters/s
+
+running (0m09.0s), 014/120 VUs, 5832 complete and 0 interrupted iterations
+cart     [  15% ] 000/050 VUs  0m09.0s/1m0s  500.00 iters/s
+pay      [  15% ] 000/020 VUs  0m09.0s/1m0s  100.00 iters/s
+report   [  15% ] 014/050 VUs  0m09.0s/1m0s  50.00 iters/s
+
+running (0m10.0s), 017/120 VUs, 6479 complete and 0 interrupted iterations
+cart     [  17% ] 000/050 VUs  0m10.0s/1m0s  500.00 iters/s
+pay      [  17% ] 000/020 VUs  0m10.0s/1m0s  100.00 iters/s
+report   [  17% ] 017/050 VUs  0m10.0s/1m0s  50.00 iters/s
+
+running (0m11.0s), 014/120 VUs, 7132 complete and 0 interrupted iterations
+cart     [  18% ] 000/050 VUs  0m11.0s/1m0s  500.00 iters/s
+pay      [  18% ] 000/020 VUs  0m11.0s/1m0s  100.00 iters/s
+report   [  18% ] 014/050 VUs  0m11.0s/1m0s  50.00 iters/s
+
+running (0m12.0s), 015/120 VUs, 7781 complete and 0 interrupted iterations
+cart     [  20% ] 000/050 VUs  0m12.0s/1m0s  500.00 iters/s
+pay      [  20% ] 000/020 VUs  0m12.0s/1m0s  100.00 iters/s
+report   [  20% ] 015/050 VUs  0m12.0s/1m0s  50.00 iters/s
+
+running (0m13.0s), 014/120 VUs, 8432 complete and 0 interrupted iterations
+cart     [  22% ] 000/050 VUs  0m13.0s/1m0s  500.00 iters/s
+pay      [  22% ] 000/020 VUs  0m13.0s/1m0s  100.00 iters/s
+report   [  22% ] 014/050 VUs  0m13.0s/1m0s  50.00 iters/s
+
+running (0m14.0s), 013/120 VUs, 9083 complete and 0 interrupted iterations
+cart     [  23% ] 000/050 VUs  0m14.0s/1m0s  500.00 iters/s
+pay      [  23% ] 000/020 VUs  0m14.0s/1m0s  100.00 iters/s
+report   [  23% ] 013/050 VUs  0m14.0s/1m0s  50.00 iters/s
+
+running (0m15.0s), 014/120 VUs, 9732 complete and 0 interrupted iterations
+cart     [  25% ] 000/050 VUs  0m15.0s/1m0s  500.00 iters/s
+pay      [  25% ] 000/020 VUs  0m15.0s/1m0s  100.00 iters/s
+report   [  25% ] 014/050 VUs  0m15.0s/1m0s  50.00 iters/s
+
+running (0m16.0s), 014/120 VUs, 10382 complete and 0 interrupted iterations
+cart     [  27% ] 000/050 VUs  0m16.0s/1m0s  500.00 iters/s
+pay      [  27% ] 000/020 VUs  0m16.0s/1m0s  100.00 iters/s
+report   [  27% ] 014/050 VUs  0m16.0s/1m0s  50.00 iters/s
+
+running (0m17.0s), 015/120 VUs, 11031 complete and 0 interrupted iterations
+cart     [  28% ] 000/050 VUs  0m17.0s/1m0s  500.00 iters/s
+pay      [  28% ] 000/020 VUs  0m17.0s/1m0s  100.00 iters/s
+report   [  28% ] 015/050 VUs  0m17.0s/1m0s  50.00 iters/s
+
+running (0m18.0s), 013/120 VUs, 11683 complete and 0 interrupted iterations
+cart     [  30% ] 000/050 VUs  0m18.0s/1m0s  500.00 iters/s
+pay      [  30% ] 000/020 VUs  0m18.0s/1m0s  100.00 iters/s
+report   [  30% ] 013/050 VUs  0m18.0s/1m0s  50.00 iters/s
+
+running (0m19.0s), 014/120 VUs, 12332 complete and 0 interrupted iterations
+cart     [  32% ] 000/050 VUs  0m19.0s/1m0s  500.00 iters/s
+pay      [  32% ] 000/020 VUs  0m19.0s/1m0s  100.00 iters/s
+report   [  32% ] 014/050 VUs  0m19.0s/1m0s  50.00 iters/s
+
+running (0m20.0s), 017/120 VUs, 12979 complete and 0 interrupted iterations
+cart     [  33% ] 000/050 VUs  0m20.0s/1m0s  500.00 iters/s
+pay      [  33% ] 000/020 VUs  0m20.0s/1m0s  100.00 iters/s
+report   [  33% ] 017/050 VUs  0m20.0s/1m0s  50.00 iters/s
+
+running (0m21.0s), 016/120 VUs, 13630 complete and 0 interrupted iterations
+cart     [  35% ] 000/050 VUs  0m21.0s/1m0s  500.00 iters/s
+pay      [  35% ] 000/020 VUs  0m21.0s/1m0s  100.00 iters/s
+report   [  35% ] 016/050 VUs  0m21.0s/1m0s  50.00 iters/s
+
+running (0m22.0s), 014/120 VUs, 14282 complete and 0 interrupted iterations
+cart     [  37% ] 000/050 VUs  0m22.0s/1m0s  500.00 iters/s
+pay      [  37% ] 000/020 VUs  0m22.0s/1m0s  100.00 iters/s
+report   [  37% ] 014/050 VUs  0m22.0s/1m0s  50.00 iters/s
+
+running (0m23.0s), 015/120 VUs, 14931 complete and 0 interrupted iterations
+cart     [  38% ] 000/050 VUs  0m23.0s/1m0s  500.00 iters/s
+pay      [  38% ] 000/020 VUs  0m23.0s/1m0s  100.00 iters/s
+report   [  38% ] 015/050 VUs  0m23.0s/1m0s  50.00 iters/s
+
+running (0m24.0s), 016/120 VUs, 15581 complete and 0 interrupted iterations
+cart     [  40% ] 001/050 VUs  0m24.0s/1m0s  500.00 iters/s
+pay      [  40% ] 000/020 VUs  0m24.0s/1m0s  100.00 iters/s
+report   [  40% ] 015/050 VUs  0m24.0s/1m0s  50.00 iters/s
+
+running (0m25.0s), 016/120 VUs, 16230 complete and 0 interrupted iterations
+cart     [  42% ] 000/050 VUs  0m25.0s/1m0s  500.00 iters/s
+pay      [  42% ] 000/020 VUs  0m25.0s/1m0s  100.00 iters/s
+report   [  42% ] 016/050 VUs  0m25.0s/1m0s  50.00 iters/s
+
+running (0m26.0s), 014/120 VUs, 16882 complete and 0 interrupted iterations
+cart     [  43% ] 000/050 VUs  0m26.0s/1m0s  500.00 iters/s
+pay      [  43% ] 000/020 VUs  0m26.0s/1m0s  100.00 iters/s
+report   [  43% ] 014/050 VUs  0m26.0s/1m0s  50.00 iters/s
+
+running (0m27.0s), 016/120 VUs, 17530 complete and 0 interrupted iterations
+cart     [  45% ] 000/050 VUs  0m27.0s/1m0s  500.00 iters/s
+pay      [  45% ] 000/020 VUs  0m27.0s/1m0s  100.00 iters/s
+report   [  45% ] 016/050 VUs  0m27.0s/1m0s  50.00 iters/s
+
+running (0m28.0s), 016/120 VUs, 18180 complete and 0 interrupted iterations
+cart     [  47% ] 000/050 VUs  0m28.0s/1m0s  500.00 iters/s
+pay      [  47% ] 000/020 VUs  0m28.0s/1m0s  100.00 iters/s
+report   [  47% ] 016/050 VUs  0m28.0s/1m0s  50.00 iters/s
+
+running (0m29.0s), 015/120 VUs, 18831 complete and 0 interrupted iterations
+cart     [  48% ] 000/050 VUs  0m29.0s/1m0s  500.00 iters/s
+pay      [  48% ] 000/020 VUs  0m29.0s/1m0s  100.00 iters/s
+report   [  48% ] 015/050 VUs  0m29.0s/1m0s  50.00 iters/s
+
+running (0m30.0s), 013/120 VUs, 19483 complete and 0 interrupted iterations
+cart     [  50% ] 000/050 VUs  0m30.0s/1m0s  500.00 iters/s
+pay      [  50% ] 000/020 VUs  0m30.0s/1m0s  100.00 iters/s
+report   [  50% ] 013/050 VUs  0m30.0s/1m0s  50.00 iters/s
+
+running (0m31.0s), 016/120 VUs, 20130 complete and 0 interrupted iterations
+cart     [  52% ] 000/050 VUs  0m31.0s/1m0s  500.00 iters/s
+pay      [  52% ] 000/020 VUs  0m31.0s/1m0s  100.00 iters/s
+report   [  52% ] 016/050 VUs  0m31.0s/1m0s  50.00 iters/s
+
+running (0m32.0s), 014/120 VUs, 20782 complete and 0 interrupted iterations
+cart     [  53% ] 000/050 VUs  0m32.0s/1m0s  500.00 iters/s
+pay      [  53% ] 000/020 VUs  0m32.0s/1m0s  100.00 iters/s
+report   [  53% ] 014/050 VUs  0m32.0s/1m0s  50.00 iters/s
+
+running (0m33.0s), 018/120 VUs, 21428 complete and 0 interrupted iterations
+cart     [  55% ] 001/050 VUs  0m33.0s/1m0s  500.00 iters/s
+pay      [  55% ] 000/020 VUs  0m33.0s/1m0s  100.00 iters/s
+report   [  55% ] 017/050 VUs  0m33.0s/1m0s  50.00 iters/s
+
+running (0m34.0s), 012/120 VUs, 22084 complete and 0 interrupted iterations
+cart     [  57% ] 000/050 VUs  0m34.0s/1m0s  500.00 iters/s
+pay      [  57% ] 000/020 VUs  0m34.0s/1m0s  100.00 iters/s
+report   [  57% ] 012/050 VUs  0m34.0s/1m0s  50.00 iters/s
+
+running (0m35.0s), 015/120 VUs, 22731 complete and 0 interrupted iterations
+cart     [  58% ] 000/050 VUs  0m35.0s/1m0s  500.00 iters/s
+pay      [  58% ] 000/020 VUs  0m35.0s/1m0s  100.00 iters/s
+report   [  58% ] 015/050 VUs  0m35.0s/1m0s  50.00 iters/s
+
+running (0m36.0s), 016/120 VUs, 23380 complete and 0 interrupted iterations
+cart     [  60% ] 000/050 VUs  0m36.0s/1m0s  500.00 iters/s
+pay      [  60% ] 000/020 VUs  0m36.0s/1m0s  100.00 iters/s
+report   [  60% ] 016/050 VUs  0m36.0s/1m0s  50.00 iters/s
+
+running (0m37.0s), 017/120 VUs, 24029 complete and 0 interrupted iterations
+cart     [  62% ] 000/050 VUs  0m37.0s/1m0s  500.00 iters/s
+pay      [  62% ] 000/020 VUs  0m37.0s/1m0s  100.00 iters/s
+report   [  62% ] 017/050 VUs  0m37.0s/1m0s  50.00 iters/s
+
+running (0m38.0s), 014/120 VUs, 24682 complete and 0 interrupted iterations
+cart     [  63% ] 000/050 VUs  0m38.0s/1m0s  500.00 iters/s
+pay      [  63% ] 000/020 VUs  0m38.0s/1m0s  100.00 iters/s
+report   [  63% ] 014/050 VUs  0m38.0s/1m0s  50.00 iters/s
+
+running (0m39.0s), 017/120 VUs, 25329 complete and 0 interrupted iterations
+cart     [  65% ] 000/050 VUs  0m39.0s/1m0s  500.00 iters/s
+pay      [  65% ] 000/020 VUs  0m39.0s/1m0s  100.00 iters/s
+report   [  65% ] 017/050 VUs  0m39.0s/1m0s  50.00 iters/s
+
+running (0m40.0s), 014/120 VUs, 25982 complete and 0 interrupted iterations
+cart     [  67% ] 000/050 VUs  0m40.0s/1m0s  500.00 iters/s
+pay      [  67% ] 000/020 VUs  0m40.0s/1m0s  100.00 iters/s
+report   [  67% ] 014/050 VUs  0m40.0s/1m0s  50.00 iters/s
+
+running (0m41.0s), 015/120 VUs, 26631 complete and 0 interrupted iterations
+cart     [  68% ] 000/050 VUs  0m41.0s/1m0s  500.00 iters/s
+pay      [  68% ] 000/020 VUs  0m41.0s/1m0s  100.00 iters/s
+report   [  68% ] 015/050 VUs  0m41.0s/1m0s  50.00 iters/s
+
+running (0m42.0s), 014/120 VUs, 27282 complete and 0 interrupted iterations
+cart     [  70% ] 000/050 VUs  0m42.0s/1m0s  500.00 iters/s
+pay      [  70% ] 000/020 VUs  0m42.0s/1m0s  100.00 iters/s
+report   [  70% ] 014/050 VUs  0m42.0s/1m0s  50.00 iters/s
+
+running (0m43.0s), 018/120 VUs, 27928 complete and 0 interrupted iterations
+cart     [  72% ] 000/050 VUs  0m43.0s/1m0s  500.00 iters/s
+pay      [  72% ] 000/020 VUs  0m43.0s/1m0s  100.00 iters/s
+report   [  72% ] 018/050 VUs  0m43.0s/1m0s  50.00 iters/s
+
+running (0m44.0s), 015/120 VUs, 28581 complete and 0 interrupted iterations
+cart     [  73% ] 000/050 VUs  0m44.0s/1m0s  500.00 iters/s
+pay      [  73% ] 000/020 VUs  0m44.0s/1m0s  100.00 iters/s
+report   [  73% ] 015/050 VUs  0m44.0s/1m0s  50.00 iters/s
+
+running (0m45.0s), 015/120 VUs, 29231 complete and 0 interrupted iterations
+cart     [  75% ] 000/050 VUs  0m45.0s/1m0s  500.00 iters/s
+pay      [  75% ] 000/020 VUs  0m45.0s/1m0s  100.00 iters/s
+report   [  75% ] 015/050 VUs  0m45.0s/1m0s  50.00 iters/s
+
+running (0m46.0s), 016/120 VUs, 29880 complete and 0 interrupted iterations
+cart     [  77% ] 000/050 VUs  0m46.0s/1m0s  500.00 iters/s
+pay      [  77% ] 000/020 VUs  0m46.0s/1m0s  100.00 iters/s
+report   [  77% ] 016/050 VUs  0m46.0s/1m0s  50.00 iters/s
+
+running (0m47.0s), 014/120 VUs, 30532 complete and 0 interrupted iterations
+cart     [  78% ] 000/050 VUs  0m47.0s/1m0s  500.00 iters/s
+pay      [  78% ] 000/020 VUs  0m47.0s/1m0s  100.00 iters/s
+report   [  78% ] 014/050 VUs  0m47.0s/1m0s  50.00 iters/s
+
+running (0m48.0s), 011/120 VUs, 31185 complete and 0 interrupted iterations
+cart     [  80% ] 000/050 VUs  0m48.0s/1m0s  500.00 iters/s
+pay      [  80% ] 000/020 VUs  0m48.0s/1m0s  100.00 iters/s
+report   [  80% ] 011/050 VUs  0m48.0s/1m0s  50.00 iters/s
+
+running (0m49.0s), 014/120 VUs, 31832 complete and 0 interrupted iterations
+cart     [  82% ] 000/050 VUs  0m49.0s/1m0s  500.00 iters/s
+pay      [  82% ] 000/020 VUs  0m49.0s/1m0s  100.00 iters/s
+report   [  82% ] 014/050 VUs  0m49.0s/1m0s  50.00 iters/s
+
+running (0m50.0s), 016/120 VUs, 32480 complete and 0 interrupted iterations
+cart     [  83% ] 000/050 VUs  0m50.0s/1m0s  500.00 iters/s
+pay      [  83% ] 000/020 VUs  0m50.0s/1m0s  100.00 iters/s
+report   [  83% ] 016/050 VUs  0m50.0s/1m0s  50.00 iters/s
+
+running (0m51.0s), 013/120 VUs, 33133 complete and 0 interrupted iterations
+cart     [  85% ] 001/050 VUs  0m51.0s/1m0s  500.00 iters/s
+pay      [  85% ] 000/020 VUs  0m51.0s/1m0s  100.00 iters/s
+report   [  85% ] 012/050 VUs  0m51.0s/1m0s  50.00 iters/s
+
+running (0m52.0s), 014/120 VUs, 33782 complete and 0 interrupted iterations
+cart     [  87% ] 000/050 VUs  0m52.0s/1m0s  500.00 iters/s
+pay      [  87% ] 000/020 VUs  0m52.0s/1m0s  100.00 iters/s
+report   [  87% ] 014/050 VUs  0m52.0s/1m0s  50.00 iters/s
+
+running (0m53.0s), 015/120 VUs, 34431 complete and 0 interrupted iterations
+cart     [  88% ] 000/050 VUs  0m53.0s/1m0s  500.00 iters/s
+pay      [  88% ] 000/020 VUs  0m53.0s/1m0s  100.00 iters/s
+report   [  88% ] 015/050 VUs  0m53.0s/1m0s  50.00 iters/s
+
+running (0m54.0s), 016/120 VUs, 35080 complete and 0 interrupted iterations
+cart     [  90% ] 000/050 VUs  0m54.0s/1m0s  500.00 iters/s
+pay      [  90% ] 000/020 VUs  0m54.0s/1m0s  100.00 iters/s
+report   [  90% ] 016/050 VUs  0m54.0s/1m0s  50.00 iters/s
+
+running (0m55.0s), 014/120 VUs, 35732 complete and 0 interrupted iterations
+cart     [  92% ] 000/050 VUs  0m55.0s/1m0s  500.00 iters/s
+pay      [  92% ] 000/020 VUs  0m55.0s/1m0s  100.00 iters/s
+report   [  92% ] 014/050 VUs  0m55.0s/1m0s  50.00 iters/s
+
+running (0m56.0s), 016/120 VUs, 36380 complete and 0 interrupted iterations
+cart     [  93% ] 000/050 VUs  0m56.0s/1m0s  500.00 iters/s
+pay      [  93% ] 000/020 VUs  0m56.0s/1m0s  100.00 iters/s
+report   [  93% ] 016/050 VUs  0m56.0s/1m0s  50.00 iters/s
+
+running (0m57.0s), 013/120 VUs, 37033 complete and 0 interrupted iterations
+cart     [  95% ] 000/050 VUs  0m57.0s/1m0s  500.00 iters/s
+pay      [  95% ] 000/020 VUs  0m57.0s/1m0s  100.00 iters/s
+report   [  95% ] 013/050 VUs  0m57.0s/1m0s  50.00 iters/s
+
+running (0m58.0s), 014/120 VUs, 37682 complete and 0 interrupted iterations
+cart     [  97% ] 000/050 VUs  0m58.0s/1m0s  500.00 iters/s
+pay      [  97% ] 000/020 VUs  0m58.0s/1m0s  100.00 iters/s
+report   [  97% ] 014/050 VUs  0m58.0s/1m0s  50.00 iters/s
+
+running (0m59.0s), 013/120 VUs, 38333 complete and 0 interrupted iterations
+cart     [  98% ] 000/050 VUs  0m59.0s/1m0s  500.00 iters/s
+pay      [  98% ] 000/020 VUs  0m59.0s/1m0s  100.00 iters/s
+report   [  98% ] 013/050 VUs  0m59.0s/1m0s  50.00 iters/s
+
+running (1m00.0s), 015/120 VUs, 38981 complete and 0 interrupted iterations
+cart     [ 100% ] 000/050 VUs  1m00.0s/1m0s  500.00 iters/s
+pay      [ 100% ] 000/020 VUs  1m00.0s/1m0s  100.00 iters/s
+report   [ 100% ] 015/050 VUs  1m00.0s/1m0s  50.00 iters/s
+
+
+  █ THRESHOLDS 
+
+    http_req_duration{name:cart}
+    ✓ 'p(95)<5000' p(95)=587µs
+
+    http_req_duration{name:pay}
+    ✓ 'p(95)<5000' p(95)=780µs
+
+    http_req_duration{name:report}
+    ✓ 'p(95)<5000' p(95)=389.83ms
+
+    pay_pofod
+    ✓ 'rate<1' rate=5.51%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 30001   496.993225/s
+    checks_succeeded...: 100.00% 30001 out of 30001
+    checks_failed......: 0.00%   0 out of 30001
+
+    ✓ cart 200
+
+    CUSTOM
+    pay_pofod......................: 5.51%  331 out of 6001
+
+    HTTP
+    http_req_duration..............: avg=23.35ms  min=82µs     med=322µs    max=400.26ms p(90)=779µs    p(95)=269.74ms
+      { expected_response:true }...: avg=23.55ms  min=82µs     med=321µs    max=400.26ms p(90)=782.9µs  p(95)=270.56ms
+      { name:cart }................: avg=328.16µs min=82µs     med=290µs    max=16.34ms  p(90)=472µs    p(95)=587µs   
+      { name:pay }.................: avg=447.47µs min=91µs     med=396µs    max=6.19ms   p(90)=688µs    p(95)=780µs   
+      { name:report }..............: avg=299.34ms min=200.25ms med=298.37ms max=400.26ms p(90)=379.84ms p(95)=389.83ms
+    http_req_failed................: 0.84%  331 out of 39003
+    http_reqs......................: 39003  646.119354/s
+
+    EXECUTION
+    iteration_duration.............: avg=23.44ms  min=101.12µs med=413.95µs max=400.38ms p(90)=918.24µs p(95)=269.83ms
+    iterations.....................: 39003  646.119354/s
+    vus............................: 15     min=11           max=18 
+    vus_max........................: 120    min=120          max=120
+
+    NETWORK
+    data_received..................: 9.9 MB 164 kB/s
+    data_sent......................: 3.7 MB 62 kB/s
+
+
+
+
+running (1m00.4s), 000/120 VUs, 39003 complete and 0 interrupted iterations
+cart   ✓ [ 100% ] 000/050 VUs  1m0s  500.00 iters/s
+pay    ✓ [ 100% ] 000/020 VUs  1m0s  100.00 iters/s
+report ✓ [ 100% ] 000/050 VUs  1m0s  50.00 iters/s

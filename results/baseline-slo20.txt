@@ -1,0 +1,299 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: slo20.js
+        output: -
+
+     scenarios: (100.00%) 2 scenarios, 40 max VUs, 1m30s max duration (incl. graceful stop):
+              * cart: 20 looping VUs for 1m0s (exec: cart, gracefulStop: 30s)
+              * pay: 20 looping VUs for 1m0s (exec: pay, gracefulStop: 30s)
+
+
+running (0m01.0s), 40/40 VUs, 22812 complete and 0 interrupted iterations
+cart   [   2% ] 20 VUs  0m01.0s/1m0s
+pay    [   2% ] 20 VUs  0m01.0s/1m0s
+
+running (0m02.0s), 40/40 VUs, 46885 complete and 0 interrupted iterations
+cart   [   3% ] 20 VUs  0m02.0s/1m0s
+pay    [   3% ] 20 VUs  0m02.0s/1m0s
+
+running (0m03.0s), 40/40 VUs, 70302 complete and 0 interrupted iterations
+cart   [   5% ] 20 VUs  0m03.0s/1m0s
+pay    [   5% ] 20 VUs  0m03.0s/1m0s
+
+running (0m04.0s), 40/40 VUs, 93889 complete and 0 interrupted iterations
+cart   [   7% ] 20 VUs  0m04.0s/1m0s
+pay    [   7% ] 20 VUs  0m04.0s/1m0s
+
+running (0m05.0s), 40/40 VUs, 115227 complete and 0 interrupted iterations
+cart   [   8% ] 20 VUs  0m05.0s/1m0s
+pay    [   8% ] 20 VUs  0m05.0s/1m0s
+
+running (0m06.0s), 40/40 VUs, 138445 complete and 0 interrupted iterations
+cart   [  10% ] 20 VUs  0m06.0s/1m0s
+pay    [  10% ] 20 VUs  0m06.0s/1m0s
+
+running (0m07.0s), 40/40 VUs, 162112 complete and 0 interrupted iterations
+cart   [  12% ] 20 VUs  0m07.0s/1m0s
+pay    [  12% ] 20 VUs  0m07.0s/1m0s
+
+running (0m08.0s), 40/40 VUs, 185793 complete and 0 interrupted iterations
+cart   [  13% ] 20 VUs  0m08.0s/1m0s
+pay    [  13% ] 20 VUs  0m08.0s/1m0s
+
+running (0m09.0s), 40/40 VUs, 208807 complete and 0 interrupted iterations
+cart   [  15% ] 20 VUs  0m09.0s/1m0s
+pay    [  15% ] 20 VUs  0m09.0s/1m0s
+
+running (0m10.0s), 40/40 VUs, 231270 complete and 0 interrupted iterations
+cart   [  17% ] 20 VUs  0m10.0s/1m0s
+pay    [  17% ] 20 VUs  0m10.0s/1m0s
+
+running (0m11.0s), 40/40 VUs, 255465 complete and 0 interrupted iterations
+cart   [  18% ] 20 VUs  0m11.0s/1m0s
+pay    [  18% ] 20 VUs  0m11.0s/1m0s
+
+running (0m12.0s), 40/40 VUs, 278546 complete and 0 interrupted iterations
+cart   [  20% ] 20 VUs  0m12.0s/1m0s
+pay    [  20% ] 20 VUs  0m12.0s/1m0s
+
+running (0m13.0s), 40/40 VUs, 301765 complete and 0 interrupted iterations
+cart   [  22% ] 20 VUs  0m13.0s/1m0s
+pay    [  22% ] 20 VUs  0m13.0s/1m0s
+
+running (0m14.0s), 40/40 VUs, 325411 complete and 0 interrupted iterations
+cart   [  23% ] 20 VUs  0m14.0s/1m0s
+pay    [  23% ] 20 VUs  0m14.0s/1m0s
+
+running (0m15.0s), 40/40 VUs, 348824 complete and 0 interrupted iterations
+cart   [  25% ] 20 VUs  0m15.0s/1m0s
+pay    [  25% ] 20 VUs  0m15.0s/1m0s
+
+running (0m16.0s), 40/40 VUs, 372861 complete and 0 interrupted iterations
+cart   [  27% ] 20 VUs  0m16.0s/1m0s
+pay    [  27% ] 20 VUs  0m16.0s/1m0s
+
+running (0m17.0s), 40/40 VUs, 396526 complete and 0 interrupted iterations
+cart   [  28% ] 20 VUs  0m17.0s/1m0s
+pay    [  28% ] 20 VUs  0m17.0s/1m0s
+
+running (0m18.0s), 40/40 VUs, 417922 complete and 0 interrupted iterations
+cart   [  30% ] 20 VUs  0m18.0s/1m0s
+pay    [  30% ] 20 VUs  0m18.0s/1m0s
+
+running (0m19.0s), 40/40 VUs, 442050 complete and 0 interrupted iterations
+cart   [  32% ] 20 VUs  0m19.0s/1m0s
+pay    [  32% ] 20 VUs  0m19.0s/1m0s
+
+running (0m20.0s), 40/40 VUs, 465901 complete and 0 interrupted iterations
+cart   [  33% ] 20 VUs  0m20.0s/1m0s
+pay    [  33% ] 20 VUs  0m20.0s/1m0s
+
+running (0m21.0s), 40/40 VUs, 490283 complete and 0 interrupted iterations
+cart   [  35% ] 20 VUs  0m21.0s/1m0s
+pay    [  35% ] 20 VUs  0m21.0s/1m0s
+
+running (0m22.0s), 40/40 VUs, 513850 complete and 0 interrupted iterations
+cart   [  37% ] 20 VUs  0m22.0s/1m0s
+pay    [  37% ] 20 VUs  0m22.0s/1m0s
+
+running (0m23.0s), 40/40 VUs, 537852 complete and 0 interrupted iterations
+cart   [  38% ] 20 VUs  0m23.0s/1m0s
+pay    [  38% ] 20 VUs  0m23.0s/1m0s
+
+running (0m24.0s), 40/40 VUs, 560027 complete and 0 interrupted iterations
+cart   [  40% ] 20 VUs  0m24.0s/1m0s
+pay    [  40% ] 20 VUs  0m24.0s/1m0s
+
+running (0m25.0s), 40/40 VUs, 583736 complete and 0 interrupted iterations
+cart   [  42% ] 20 VUs  0m25.0s/1m0s
+pay    [  42% ] 20 VUs  0m25.0s/1m0s
+
+running (0m26.0s), 40/40 VUs, 606807 complete and 0 interrupted iterations
+cart   [  43% ] 20 VUs  0m26.0s/1m0s
+pay    [  43% ] 20 VUs  0m26.0s/1m0s
+
+running (0m27.0s), 40/40 VUs, 629831 complete and 0 interrupted iterations
+cart   [  45% ] 20 VUs  0m27.0s/1m0s
+pay    [  45% ] 20 VUs  0m27.0s/1m0s
+
+running (0m28.0s), 40/40 VUs, 652928 complete and 0 interrupted iterations
+cart   [  47% ] 20 VUs  0m28.0s/1m0s
+pay    [  47% ] 20 VUs  0m28.0s/1m0s
+
+running (0m29.0s), 40/40 VUs, 674734 complete and 0 interrupted iterations
+cart   [  48% ] 20 VUs  0m29.0s/1m0s
+pay    [  48% ] 20 VUs  0m29.0s/1m0s
+
+running (0m30.0s), 40/40 VUs, 697774 complete and 0 interrupted iterations
+cart   [  50% ] 20 VUs  0m30.0s/1m0s
+pay    [  50% ] 20 VUs  0m30.0s/1m0s
+
+running (0m31.0s), 40/40 VUs, 719587 complete and 0 interrupted iterations
+cart   [  52% ] 20 VUs  0m31.0s/1m0s
+pay    [  52% ] 20 VUs  0m31.0s/1m0s
+
+running (0m32.0s), 40/40 VUs, 741135 complete and 0 interrupted iterations
+cart   [  53% ] 20 VUs  0m32.0s/1m0s
+pay    [  53% ] 20 VUs  0m32.0s/1m0s
+
+running (0m33.0s), 40/40 VUs, 763870 complete and 0 interrupted iterations
+cart   [  55% ] 20 VUs  0m33.0s/1m0s
+pay    [  55% ] 20 VUs  0m33.0s/1m0s
+
+running (0m34.0s), 40/40 VUs, 786334 complete and 0 interrupted iterations
+cart   [  57% ] 20 VUs  0m34.0s/1m0s
+pay    [  57% ] 20 VUs  0m34.0s/1m0s
+
+running (0m35.0s), 40/40 VUs, 808354 complete and 0 interrupted iterations
+cart   [  58% ] 20 VUs  0m35.0s/1m0s
+pay    [  58% ] 20 VUs  0m35.0s/1m0s
+
+running (0m36.0s), 40/40 VUs, 831198 complete and 0 interrupted iterations
+cart   [  60% ] 20 VUs  0m36.0s/1m0s
+pay    [  60% ] 20 VUs  0m36.0s/1m0s
+
+running (0m37.0s), 40/40 VUs, 853404 complete and 0 interrupted iterations
+cart   [  62% ] 20 VUs  0m37.0s/1m0s
+pay    [  62% ] 20 VUs  0m37.0s/1m0s
+
+running (0m38.0s), 40/40 VUs, 876060 complete and 0 interrupted iterations
+cart   [  63% ] 20 VUs  0m38.0s/1m0s
+pay    [  63% ] 20 VUs  0m38.0s/1m0s
+
+running (0m39.0s), 40/40 VUs, 900022 complete and 0 interrupted iterations
+cart   [  65% ] 20 VUs  0m39.0s/1m0s
+pay    [  65% ] 20 VUs  0m39.0s/1m0s
+
+running (0m40.0s), 40/40 VUs, 923397 complete and 0 interrupted iterations
+cart   [  67% ] 20 VUs  0m40.0s/1m0s
+pay    [  67% ] 20 VUs  0m40.0s/1m0s
+
+running (0m41.0s), 40/40 VUs, 946195 complete and 0 interrupted iterations
+cart   [  68% ] 20 VUs  0m41.0s/1m0s
+pay    [  68% ] 20 VUs  0m41.0s/1m0s
+
+running (0m42.0s), 40/40 VUs, 969500 complete and 0 interrupted iterations
+cart   [  70% ] 20 VUs  0m42.0s/1m0s
+pay    [  70% ] 20 VUs  0m42.0s/1m0s
+
+running (0m43.0s), 40/40 VUs, 992447 complete and 0 interrupted iterations
+cart   [  72% ] 20 VUs  0m43.0s/1m0s
+pay    [  72% ] 20 VUs  0m43.0s/1m0s
+
+running (0m44.0s), 40/40 VUs, 1015692 complete and 0 interrupted iterations
+cart   [  73% ] 20 VUs  0m44.0s/1m0s
+pay    [  73% ] 20 VUs  0m44.0s/1m0s
+
+running (0m45.0s), 40/40 VUs, 1037192 complete and 0 interrupted iterations
+cart   [  75% ] 20 VUs  0m45.0s/1m0s
+pay    [  75% ] 20 VUs  0m45.0s/1m0s
+
+running (0m46.0s), 40/40 VUs, 1060745 complete and 0 interrupted iterations
+cart   [  77% ] 20 VUs  0m46.0s/1m0s
+pay    [  77% ] 20 VUs  0m46.0s/1m0s
+
+running (0m47.0s), 40/40 VUs, 1083527 complete and 0 interrupted iterations
+cart   [  78% ] 20 VUs  0m47.0s/1m0s
+pay    [  78% ] 20 VUs  0m47.0s/1m0s
+
+running (0m48.0s), 40/40 VUs, 1106661 complete and 0 interrupted iterations
+cart   [  80% ] 20 VUs  0m48.0s/1m0s
+pay    [  80% ] 20 VUs  0m48.0s/1m0s
+
+running (0m49.0s), 40/40 VUs, 1130130 complete and 0 interrupted iterations
+cart   [  82% ] 20 VUs  0m49.0s/1m0s
+pay    [  82% ] 20 VUs  0m49.0s/1m0s
+
+running (0m50.0s), 40/40 VUs, 1152728 complete and 0 interrupted iterations
+cart   [  83% ] 20 VUs  0m50.0s/1m0s
+pay    [  83% ] 20 VUs  0m50.0s/1m0s
+
+running (0m51.0s), 40/40 VUs, 1173633 complete and 0 interrupted iterations
+cart   [  85% ] 20 VUs  0m51.0s/1m0s
+pay    [  85% ] 20 VUs  0m51.0s/1m0s
+
+running (0m52.0s), 40/40 VUs, 1196235 complete and 0 interrupted iterations
+cart   [  87% ] 20 VUs  0m52.0s/1m0s
+pay    [  87% ] 20 VUs  0m52.0s/1m0s
+
+running (0m53.0s), 40/40 VUs, 1219917 complete and 0 interrupted iterations
+cart   [  88% ] 20 VUs  0m53.0s/1m0s
+pay    [  88% ] 20 VUs  0m53.0s/1m0s
+
+running (0m54.0s), 40/40 VUs, 1242785 complete and 0 interrupted iterations
+cart   [  90% ] 20 VUs  0m54.0s/1m0s
+pay    [  90% ] 20 VUs  0m54.0s/1m0s
+
+running (0m55.0s), 40/40 VUs, 1266966 complete and 0 interrupted iterations
+cart   [  92% ] 20 VUs  0m55.0s/1m0s
+pay    [  92% ] 20 VUs  0m55.0s/1m0s
+
+running (0m56.0s), 40/40 VUs, 1289121 complete and 0 interrupted iterations
+cart   [  93% ] 20 VUs  0m56.0s/1m0s
+pay    [  93% ] 20 VUs  0m56.0s/1m0s
+
+running (0m57.0s), 40/40 VUs, 1310005 complete and 0 interrupted iterations
+cart   [  95% ] 20 VUs  0m57.0s/1m0s
+pay    [  95% ] 20 VUs  0m57.0s/1m0s
+
+running (0m58.0s), 40/40 VUs, 1332189 complete and 0 interrupted iterations
+cart   [  97% ] 20 VUs  0m58.0s/1m0s
+pay    [  97% ] 20 VUs  0m58.0s/1m0s
+
+running (0m59.0s), 40/40 VUs, 1353483 complete and 0 interrupted iterations
+cart   [  98% ] 20 VUs  0m59.0s/1m0s
+pay    [  98% ] 20 VUs  0m59.0s/1m0s
+
+running (1m00.0s), 40/40 VUs, 1374944 complete and 0 interrupted iterations
+cart   [ 100% ] 20 VUs  1m00.0s/1m0s
+pay    [ 100% ] 20 VUs  1m00.0s/1m0s
+
+
+  █ THRESHOLDS 
+
+    http_req_duration{name:cart}
+    ✓ 'p(95)<200' p(95)=2.79ms
+
+    http_req_duration{name:pay}
+    ✓ 'p(95)<200' p(95)=2.73ms
+
+    pay_pofod
+    ✓ 'rate<0.08' rate=5.00%
+
+
+  █ TOTAL RESULTS 
+
+    CUSTOM
+    pay_pofod......................: 5.00%   34448 out of 688857
+
+    HTTP
+    http_req_duration..............: avg=1.73ms min=100µs    med=1.55ms max=40.31ms p(90)=2.32ms p(95)=2.76ms
+      { expected_response:true }...: avg=1.73ms min=100µs    med=1.55ms max=40.31ms p(90)=2.32ms p(95)=2.76ms
+      { name:cart }................: avg=1.73ms min=129µs    med=1.55ms max=33.59ms p(90)=2.33ms p(95)=2.79ms
+      { name:pay }.................: avg=1.72ms min=100µs    med=1.55ms max=40.31ms p(90)=2.31ms p(95)=2.73ms
+    http_req_failed................: 2.50%   34448 out of 1375031
+    http_reqs......................: 1375031 22916.201374/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.74ms min=127.95µs med=1.56ms max=42.33ms p(90)=2.33ms p(95)=2.77ms
+    iterations.....................: 1375031 22916.201374/s
+    vus............................: 40      min=40               max=40
+    vus_max........................: 40      min=40               max=40
+
+    NETWORK
+    data_received..................: 347 MB  5.8 MB/s
+    data_sent......................: 131 MB  2.2 MB/s
+
+
+
+
+running (1m00.0s), 00/40 VUs, 1375031 complete and 0 interrupted iterations
+cart ✓ [ 100% ] 20 VUs  1m0s
+pay  ✓ [ 100% ] 20 VUs  1m0s
