@@ -39,6 +39,22 @@ Step 2's `POFOD <= 0.005` and Step 3's `< 6%` SLO are not a contradiction and mu
 "reconciled": the former is the requirement (what the system should be), the latter the
 operational threshold (what alerts on today's system). The README explains this; keep it.
 
+## The graded contract
+
+Three rules the assignment grades on a pass/fail basis. Breaking any one fails the lab:
+
+1. **Every measured number in README.md must appear verbatim in a `results/*.txt` file.**
+   Quote k6's own formatting (`587µs`, `5.51%`, `392.92ms`) rather than re-rounding it —
+   a README saying `5.52%` where k6 printed `5.51%` is a fail. Derived values (error
+   budgets, confidence intervals) must name the file and figures they came from.
+2. **The README SLO table's four thresholds must equal `slo-test.js`'s four thresholds.**
+   Change one, change both.
+3. **`slo-test-fail.js` must differ from `slo-test.js` in exactly one threshold**
+   (`{name:report}` 450 -> 100).
+
+Re-verify 1 and 2 after any edit to either file; both were checked programmatically when
+the README was written.
+
 ## Load testing
 
 Four k6 scripts back the README. `crash.js` and `avail.js` both need an external kill
@@ -61,6 +77,12 @@ VUs issue ~3.1x more requests than normal and failures become over-represented.
 
 `avail.js` intentionally fails its own 90% threshold — that failure is the finding, not
 a bug to fix.
+
+`slo-test.js` carries `sleep(1)`, which throttles it to ~46 req/s — roughly 500x below
+the saturated baselines. That gap is load-bearing: it shrinks the per-minute `/pay`
+sample from ~689k to ~930, widening the error-rate spread from +/-0.05% to +/-1.4%, which
+is why the reliability threshold is 7% and not 6%. Do not add or remove that `sleep`
+without recomputing the threshold.
 
 There is also an unrelated k6 script at `../test.js` (sibling of this directory, not in the project). It is ESM and uses k6's built-in `k6/http` module — it runs under `k6 run`, never under `node`.
 
