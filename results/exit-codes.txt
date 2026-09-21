@@ -1,0 +1,14 @@
+k6 exit code-ийн бүртгэл
+========================
+CI pipeline яг энэ exit code-оор build-ийг зогсооно.
+
+  slo-test.js       (results/pass.txt)   → exit = 0
+  slo-test.js --duration 2m + chaos
+                    (results/chaos.txt)  → exit = 99
+  slo-test-fail.js  (results/fail.txt)   → exit = 99
+
+k6-ийн дүрэм:  0  = бүх threshold давсан
+              99 = threshold зөрчигдсөн (build зогсоно)
+
+Хэмжсэн огноо: 2026-09-21 20:06:33 +08
+k6: k6 v2.2.0 (commit/devel, go1.26.5, darwin/arm64)
